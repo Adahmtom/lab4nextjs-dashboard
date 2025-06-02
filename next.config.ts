@@ -1,12 +1,7 @@
+import type { NextConfig } from 'next';
 
-const nextConfig = {
-  experimental: {
-    serverActions: true,
-  },
-  env: {
-    POSTGRES_URL: process.env.POSTGRES_URL,
-    DATABASE_URL: process.env.DATABASE_URL,
-  },
+const nextConfig: NextConfig = {
+
 };
 
 export default nextConfig;
