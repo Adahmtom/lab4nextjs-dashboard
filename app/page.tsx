@@ -18,14 +18,6 @@ export default function Page() {
         {/* Left text content */}
         <div className="flex flex-col justify-center gap-6 rounded-lg bg-gray-50 px-6 py-10 md:w-2/5 md:px-20">
 
-        {/* New Dashboard Button */}
-          <Link
-            href="/dashboard"
-            className="flex items-center gap-5 self-start rounded-lg bg-blue-600 px-6 py-3 text-sm font-medium text-white transition-colors hover:bg-blue-500 md:text-base"
-          >
-            <span>Go to Dashboard</span>
-            <ArrowRightIcon className="w-5 md:w-6" />
-          </Link>
 
           {/* Welcome Text */}
           <p className={`${lusitana.className} text-xl text-gray-800 md:text-3xl md:leading-normal`}>
